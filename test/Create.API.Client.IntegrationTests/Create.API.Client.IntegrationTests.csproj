@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Create.API.Client\Create.API.Client.csproj" />
+  </ItemGroup>
+
 </Project>
