@@ -1,2 +1,3 @@
-# create-api-cliet
-Template project for a .NET API Client
+# Create API Client
+
+* API: <https://baconipsum.com/json-api/>
