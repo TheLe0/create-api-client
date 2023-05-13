@@ -10,4 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Create.API.Client.DependencyInjection\Create.API.Client.DependencyInjection.csproj" />
+  </ItemGroup>
+
 </Project>
