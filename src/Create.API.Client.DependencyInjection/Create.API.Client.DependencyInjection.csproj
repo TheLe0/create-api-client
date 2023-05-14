@@ -5,7 +5,7 @@
     <Version>1.0.0</Version>
     <Authors>Leonardo Tosin</Authors>
     <PackageProjectUrl>https://github.com/TheLe0/create-api-client</PackageProjectUrl>
-    <PackageIconUrl>![logo](https://github.com/TheLe0/bacen-dollar-api-client/assets/40045069/b14e8770-75d7-40d1-adc7-4a8dde1885c9)</PackageIconUrl>
+    <PackageIconUrl>https://github.com/TheLe0/bacen-dollar-api-client/assets/40045069/b14e8770-75d7-40d1-adc7-4a8dde1885c9</PackageIconUrl>
     <PackageIcon>images\logo.png</PackageIcon>
     <PackageReadmeFile>docs\README.md</PackageReadmeFile>
     <PackageTags>API client</PackageTags>
