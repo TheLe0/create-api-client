@@ -6,9 +6,9 @@
 
 This a template for quickly creating client libraries for consuming APIs in .NET. The template is already a complete solution, you can quickly personalizate it to your own APIs.
 
-This templete has:
+This templete contains:
 
-* Uniy and integration tests;
+* Unit and integration tests;
 * An isolated DI package;
 * Samples on how to use (WebAPI and Console);
 * Workflows (CI and CD).
