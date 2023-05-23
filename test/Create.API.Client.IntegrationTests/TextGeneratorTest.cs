@@ -1,5 +1,3 @@
-using Create.API.Client.Infraestructure;
-
 namespace Create.API.Client.IntegrationTests
 {
     public class TextGeneratorTest

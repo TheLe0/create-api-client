@@ -1,8 +1,8 @@
-﻿using Create.API.Client.Configuration;
+﻿using System.Threading.Tasks;
+using Create.API.Client.Configuration;
 using RestSharp;
-using System.Threading.Tasks;
 
-namespace Create.API.Client.Infraestructure
+namespace Create.API.Client.Infrastructure
 {
     public class CreateApiHttpClient : ICreateApiHttpClient
     {

@@ -1,5 +1,5 @@
 ﻿using Create.API.Client.Configuration;
-using Create.API.Client.Infraestructure;
+using Create.API.Client.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Create.API.Client.DependencyInjection

@@ -1,9 +1,9 @@
 ﻿using Create.API.Client.Configuration;
-using Create.API.Client.Infraestructure;
 using Create.API.Client.Resources;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Create.API.Client.Infrastructure;
 
 namespace Create.API.Client.Implementation
 {
@@ -24,9 +24,7 @@ namespace Create.API.Client.Implementation
             var generatedText = await GetAsync<IEnumerable<string>>()
                 .ConfigureAwait(false);
 
-            if (generatedText == null) return string.Empty;
-
-            return generatedText.FirstOrDefault();
+            return generatedText == null ? string.Empty : generatedText.FirstOrDefault();
         }
 
         public async Task<string> GenerateParagraphAsync(int paragraphs)
@@ -39,9 +37,7 @@ namespace Create.API.Client.Implementation
             var generatedText = await GetAsync<IEnumerable<string>>()
                 .ConfigureAwait(false);
 
-            if (generatedText == null) return string.Empty;
-
-            return generatedText.FirstOrDefault();
+            return generatedText == null ? string.Empty : generatedText.FirstOrDefault();
         }
 
         private void SetupDefaultParameters()
