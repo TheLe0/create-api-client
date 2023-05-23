@@ -1,6 +1,6 @@
 ﻿using Create.API.Client.Configuration;
 using Create.API.Client.Implementation;
-using Create.API.Client.Infraestructure;
+using Create.API.Client.Infrastructure;
 
 namespace Create.API.Client
 {

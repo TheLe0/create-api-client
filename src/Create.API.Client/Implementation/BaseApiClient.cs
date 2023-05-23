@@ -1,8 +1,8 @@
 ﻿using Create.API.Client.Configuration;
-using Create.API.Client.Infraestructure;
 using Flurl;
 using RestSharp;
 using System.Threading.Tasks;
+using Create.API.Client.Infrastructure;
 
 namespace Create.API.Client.Implementation
 {

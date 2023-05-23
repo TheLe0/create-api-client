@@ -1,7 +1,7 @@
-﻿using RestSharp;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using RestSharp;
 
-namespace Create.API.Client.Infraestructure
+namespace Create.API.Client.Infrastructure
 {
     public interface ICreateApiHttpClient
     {

@@ -1,6 +1,6 @@
 ﻿using Create.API.Client.Fixture;
 using Create.API.Client.Implementation;
-using Create.API.Client.Infraestructure;
+using Create.API.Client.Infrastructure;
 using Moq;
 using RestSharp;
 
