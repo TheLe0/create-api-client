@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Create.API.Client.Configuration;
 using RestSharp;
 
@@ -42,7 +43,7 @@ namespace Create.API.Client.Infrastructure
             return new RestClientOptions(_configuration.BaseUrl)
             {
                 ThrowOnAnyError = _configuration.ThrowOnAnyError,
-                MaxTimeout = _configuration.MaxTimeout
+                Timeout = TimeSpan.FromMilliseconds(_configuration.MaxTimeout)
             };
         }
     }
